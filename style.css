@@ -1,0 +1,32 @@
+header{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+body{
+   background-color: #181818;
+   color: whitesmoke;
+   height: 100vh;
+   border: 0px;
+}
+
+main{
+   display: flex;
+   flex-direction: column;
+   background-color: red;
+   justify-content: space-around;
+}
+
+#lines{
+   display: flex;
+   flex-direction: row;
+   background-color: teal;
+   justify-content: space-around;
+}
+
+#thumbnails{
+   width: 300px;
+   height: 150px;
+   background-color: blue;
+}
