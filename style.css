@@ -6,16 +6,35 @@ header{
    height: 70px;
    padding: 0px;
    margin: 0px;
+   border-bottom: grey 1px solid;
+   margin-bottom: 50px;
 }
 
 body{
    background-color: #181818;
    color: whitesmoke;
-   height: 100vh;
    border: 0px;
 }
 
+#general{
+   display: flex;
+   flex-direction: row;
+   padding: 0px;
+   margin: 0px;
+   justify-content: space-between;
+}
+
+aside{
+   position: fixed;
+   width: 80px;
+   height: 800px;
+   background-color: grey;
+   border: 0px transparent solid;
+   border-radius: 10px;
+}
+
 main{
+   margin-left: 100px;
    display: flex;
    flex-direction: column;
    background-color: #181818;
@@ -23,10 +42,31 @@ main{
    height: 100%;
 }
 
+.title{
+   margin: 10px;
+   padding: 0px;
+}
+
+h4{
+   margin: 0px;
+}
+
+.stats{
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
 .lines{
    display: flex;
    flex-direction: row;
    justify-content: space-around;
+}
+
+.misc{
+   padding: 0px;
 }
 
 .thumbnails{
@@ -40,14 +80,22 @@ main{
 nav button{
    width: 60px;
    height: 60px;
-   background-color: blueviolet;
+   background-color: grey;
+   border: 0px transparent solid;
+   border-radius: 100px;
+}
+
+.item{
+   margin-bottom: 50px;
+   margin: 20px;
+   padding: 0px;
 }
 
 header div{
    position: absolute;
-   width: 30%px;
-   height: 80px;
-   background-color: chocolate;
+   width: 30%;
+   height: 60px;
+   background-color: grey;
    border: 0px transparent solid;
    border-radius: 100px;
    display: flex;
@@ -60,6 +108,6 @@ header div input{
    background-color: transparent;
 }
 
-header div input :focus{
+header div input:focus{
    border: 0px transparent solid;
 }
