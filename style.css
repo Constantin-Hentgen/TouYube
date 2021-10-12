@@ -62,9 +62,23 @@ header>* {
 
 #header_center {
     height: 45px;
-    width: 40%;
+    width: 700px;
     height: 70%;
     margin: auto;
+}
+
+#button_search{
+    background-color: transparent;
+    border: 0px transparent solid;
+    border-radius: 100px;
+    padding-left: 10px;
+}
+
+#dark a{
+    width: 20px;
+    padding: 0px;
+    display: grid;
+    place-items: center;
 }
 
 #dark {
@@ -128,6 +142,7 @@ nav button {
     height: 40px;
     border: 0px transparent solid;
     border-radius: 100px;
+    aspect-ratio: 1;
 }
 
 #profile {
@@ -158,9 +173,6 @@ nav button {
     height: 55px;
     overflow: hidden;
     padding-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .suggestion:first-child {
@@ -183,7 +195,7 @@ nav button {
     color: white;
     border: rgb(93, 93, 93) 1px solid;
     border-radius: 30px;
-    margin: auto;
+    margin-top: 15px;
 }
 
 .group_nav {
@@ -209,6 +221,7 @@ aside{
     top: 65px;
     height: 100%;
     overflow: auto;
+    width:250px;
     background-color: #202020;
 }
 
@@ -219,7 +232,7 @@ aside nav {
 }
 
 .nav_selection {
-    width: 250px;
+    width: 220px;
     color: whitesmoke;
     display: flex;
     flex-direction: row;
@@ -255,14 +268,16 @@ aside nav {
 }
 
 main {
-    padding-left: 70px;
-    padding-right: 70px;
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 130px;
     margin-left: 250px;
-    display: flex;
-    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
     background-color: #181818;
-    justify-content: space-between;
 }
 
 #channelpp {
@@ -298,13 +313,6 @@ h4 {
 hr {
     color: white;
     width: 80%;
-}
-
-.lines {
-    display: flex;
-    margin-bottom: 40px;
-    flex-direction: row;
-    justify-content:space-around;
 }
 
 #time {
@@ -369,7 +377,24 @@ hr {
 }
 
 .item {
-    margin-bottom: 50px;
     margin: 10px;
     padding: 0px;
 }
+
+@media screen and (max-width: 1700px) {
+    aside {
+      display: none;
+      flex-direction: row;
+      position: absolute;
+      bottom: 0px;
+    }
+
+    #sub_header{
+        width: 100%;
+    }
+
+    main{
+        margin: auto;
+    }
+
+  }

@@ -32,13 +32,13 @@
         <div id='header_center'>
             <div id="dark">
                 <input type="text" name="searchbar" class="searchtext" placeholder="Rechercher">
-                <a href="">
+                <button id="button_search">
                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="whitesmoke"
                         class="bi bi-search" viewBox="0 0 16 16">
                         <path
                             d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                     </svg>
-                </a>
+                </button>
             </div>
             <button id="voice_search">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="whitesmoke" class="bi bi-mic-fill"
@@ -247,7 +247,8 @@
                         </svg>
                     </button>
                     <h4>Abonnement</h4>
-                </div><div class="nav_selection">
+                </div>
+                <div class="nav_selection">
                     <button>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
                             class="bi bi-person-circle" viewBox="0 0 16 16">
@@ -257,7 +258,8 @@
                         </svg>
                     </button>
                     <h4>Abonnement</h4>
-                </div><div class="nav_selection">
+                </div>
+                <div class="nav_selection">
                     <button>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
                             class="bi bi-person-circle" viewBox="0 0 16 16">
@@ -267,7 +269,8 @@
                         </svg>
                     </button>
                     <h4>Abonnement</h4>
-                </div><div class="nav_selection">
+                </div>
+                <div class="nav_selection">
                     <button>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
                             class="bi bi-person-circle" viewBox="0 0 16 16">
@@ -277,7 +280,8 @@
                         </svg>
                     </button>
                     <h4>Abonnement</h4>
-                </div><div class="nav_selection">
+                </div>
+                <div class="nav_selection">
                     <button>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
                             class="bi bi-person-circle" viewBox="0 0 16 16">
@@ -361,275 +365,383 @@
     </div>
 
     <main>
-        <div class="lines">
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
             </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
+        </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
             </div>
+        </div>
 
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
             </div>
+        </div>
 
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
             </div>
         </div>
-        <div class="lines">
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
-                </div>
+        
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
             </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
             </div>
         </div>
-        <div class="lines">
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
-                </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
             </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
             </div>
         </div>
-        <div class="lines">
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
-                </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
             </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
             </div>
         </div>
-        <div class="lines">
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
             </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
+        </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
             </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
-                </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
+        </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
             </div>
-            <div class="item">
-                <div class="thumbnails">
-                    <div id="time">45:45</div>
+        </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
-                <div class="misc">
-                    <a id='channelpp' href="channel_url"></a>
-                    <div class="misctext">
-                        <h4 class="title">Random Title</h4>
-                        <p class="channel">Channel's name</p>
-                        <p class="stats">546 M de vues ⸳ il y a un jour</p>
-                    </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div><div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="thumbnails">
+                <div id="time">45:45</div>
+            </div>
+            <div class="misc">
+                <a id='channelpp' href="channel_url"></a>
+                <div class="misctext">
+                    <h4 class="title">Random Title</h4>
+                    <p class="channel">Channel's name</p>
+                    <p class="stats">546 M de vues ⸳ il y a un jour</p>
                 </div>
             </div>
         </div>
