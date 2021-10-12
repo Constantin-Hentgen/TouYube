@@ -267,16 +267,20 @@ aside nav {
     margin-left: 10px;
 }
 
-main {
-    width: 75%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
+main{
+    display: grid;
+    place-items: center;
     margin-top: 130px;
     margin-left: 250px;
-    padding-left: 70px;
-    padding-right: 70px;
+    width: 100%-250px;
+}
+
+#general{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: auto;
+    flex-wrap: wrap;
     background-color: #181818;
 }
 
