@@ -20,9 +20,6 @@ form {
     border-radius: 20px;
 }
 
-form>* {
-    margin: 15px;
-}
 
 input {
     padding: 10px;
@@ -38,4 +35,42 @@ form>input {
     width: 50%;
     margin: auto;
     margin-top: 20px;
+}
+
+form>h1{
+    margin: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#fake_submit{
+    color: #202020;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    font-size: 1.5em;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+
+#fake_submit:hover{
+    animation-name: fake_submit_hover;
+    animation-duration: 1s;
+}
+
+@keyframes fake_submit_hover {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.5);}
+    100%{transform: scale(1);}
 }
