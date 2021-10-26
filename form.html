@@ -11,17 +11,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/jpg" href="touyube.png" />
-    <title>Inscription</title>
+    <title>Formulaire/tableau</title>
 </head>
 
 <body>
     <form>
-        <h1>Formulaire construit dans un tableau</h1>
-        <hr>     
+        <h1>Formulaire construit dans un tableau</h1>     
         <table>
             <tr>
                 <th>
-                    <label for="fname">First name:</label>
+                    <label for="fname">Prénom :</label>
                 </th>
                 <th>
                     <input type="text" id="fname" name="fname" placeholder="Dev">
@@ -29,7 +28,7 @@
             </tr>
             <tr>
                 <th>
-                    <label for="lname">Last name:</label>
+                    <label for="lname">Nom de famille :</label>
                 </th>
                 <th>
                     <input type="text" id="lname" name="lname" placeholder="Loper">
@@ -37,18 +36,18 @@
             </tr>
             <tr>
                 <th>
-                    <h4>Select your sex :</h4>
+                    <h4>Sélectionner un sexe :</h4>
                 </th>
                 <th>
                     <input type="radio" id="man" name="sex" placeholder="man'">
-                    <label for="sex"> I'm a Man</label>
+                    <label for="sex"> Homme</label>
                     <input type="radio" id="woman" name="sex" placeholder="woman">
-                    <label for="sex2"> I'm a Woman</label>
+                    <label for="sex2"> Femme</label>
                 </th>
             </tr>
             <tr>
                 <th>
-                    <h4>Select your favorite Web language :</h4>
+                    <h4>Les langages que j'aime :</h4>
                 </th>
                 <th>
                     <input type="checkbox" id="html" name="fav_language" value="HTML">
@@ -61,7 +60,7 @@
             </tr>
             <tr>
                 <th>
-                    <label for="birthday">Birthday:</label>
+                    <label for="birthday">Date d'anniversaire :</label>
                 </th>
                 <th>
                     <input type="date" id="birthday" name="birthday">
@@ -69,7 +68,7 @@
             </tr>
             <tr>
                 <th>
-                    <label for="email">Enter your email:</label>
+                    <label for="email">Adresse e-mail :</label>
                 </th>
                 <th>
                     <input type="email" id="email" name="email" placeholder="email@domain.web">
@@ -77,7 +76,7 @@
             </tr>
             <tr>
                 <th>
-                    <label for="myfile">Select your profile picture:</label>
+                    <label for="myfile">Choisir une image de profil :</label>
                 </th>
                 <th>
                     <input type="file" id="myfile" name="myfile">
@@ -85,7 +84,7 @@
             </tr>
             <tr>
                 <th>
-                    <label for="phone">Enter your phone number:</label>
+                    <label for="phone">Numéro de téléphone :</label>
                 </th>
                 <th>
                     <input type="tel" id="phone" name="phone" placeholder="00.00.00.00.00"
@@ -94,15 +93,14 @@
             </tr>
             <tr>
                 <th>
-                    <label for="favcolor">Select your favorite color:</label>
+                    <label for="favcolor">Ma couleur préférée :</label>
                 </th>
                 <th>
                     <input type="color" id="favcolor" name="favcolor">
                 </th>
             </tr>
         </table>
-        <hr>
-        <a id='fake_submit' href="index.html">Submit</a>
+        <a id='fake_submit' href="index.html">Envoyer</a>
     </form>
 
 </body>
