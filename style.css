@@ -142,7 +142,7 @@ nav button {
 }
 
 #profile {
-    background-color: red;
+    background-color: blue;
 }
 
 #sub_header {
@@ -334,7 +334,7 @@ h4 {
 .thumbnails {
     width: 360px;
     height: 202.5px;
-    background-color: green;
+    background-color: rgb(2, 36, 116);
     border: transparent 0px solid;
     border-radius: 1px;
     display: flex;
